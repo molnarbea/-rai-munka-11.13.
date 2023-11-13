@@ -1,0 +1,54 @@
+body{
+    background-color: green;
+
+}
+
+#auto{
+    color: white;
+    text-align: center;
+}
+
+img{
+    float: left;
+    height: 400px;
+    width: auto;
+}
+table{
+    float: none;
+    clear: both;
+}
+table, td{
+    border: 1px black solid;
+    border-collapse: collapse;
+    background-color: white;
+}
+#elso{
+    background-image: url('smiley2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+ol{
+    list-style-type: none;
+}
+ul li{
+    list-style-image: url('smiley2.png');
+    list-style-position: inside;
+}
+div{
+    border: grey 1px solid;
+    margin: 0px 50px 0px 50px;
+    padding: 30px 0px 30px 0px;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+div p{
+    text-indent: 50px;
+    text-align: justify;
+}
+div h1::first-letter{
+    font-variant: small-caps;
+}
